@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DirectoryTest" time="0.18" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/maxxm/Program5/UnitTests/P5/Directory/target/test-classes:/home/maxxm/Program5/UnitTests/P5/Directory/target/classes:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/maxxm/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/maxxm/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/maxxm/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/maxxm/Program5/UnitTests/P5/Directory/lib/mock.jar:/home/maxxm/Program5/UnitTests/P5/Directory/lib/mock.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/maxxm/Program5/UnitTests/P5/Directory/target/surefire/surefirebooter-20260321061834660_3.jar /home/maxxm/Program5/UnitTests/P5/Directory/target/surefire 2026-03-21T06-18-34_159-jvmRun1 surefire-20260321061834660_1tmp surefire_0-20260321061834660_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/maxxm/Program5/UnitTests/P5/Directory/target/test-classes:/home/maxxm/Program5/UnitTests/P5/Directory/target/classes:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/maxxm/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/maxxm/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/maxxm/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/maxxm/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/home/maxxm/Program5/UnitTests/P5/Directory/lib/mock.jar:/home/maxxm/Program5/UnitTests/P5/Directory/lib/mock.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/maxxm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/maxxm/Program5/UnitTests/P5/Directory"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/maxxm/Program5/UnitTests/P5/Directory/target/surefire/surefirebooter-20260321061834660_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+8-Ubuntu-124.04.1"/>
+    <property name="user.name" value="maxxm"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.6.123+"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/maxxm/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="/home/maxxm/Program5/UnitTests/P5/Directory"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.18+8-Ubuntu-124.04.1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testFillDirectoryWithRandomFilenames" classname="DirectoryTest" time="0.06"/>
+  <testcase name="test_inode_number_associated_with_a_filename" classname="DirectoryTest" time="0.004"/>
+  <testcase name="testBytesConversionEdgeCases" classname="DirectoryTest" time="0.005"/>
+  <testcase name="testDuplicateFilenames" classname="DirectoryTest" time="0.003"/>
+  <testcase name="testListFormattedToStringMethod" classname="DirectoryTest" time="0.01"/>
+  <testcase name="testIallocEdgeCases" classname="DirectoryTest" time="0.002"/>
+  <testcase name="testNameiEdgeCases" classname="DirectoryTest" time="0.003"/>
+  <testcase name="testListFiles" classname="DirectoryTest" time="0.003"/>
+  <testcase name="testConstructorInitialization" classname="DirectoryTest" time="0.002"/>
+  <testcase name="testListFiles_output" classname="DirectoryTest" time="0.002">
+    <system-out><![CDATA[Current files in directory: / fileA fileB fileC longfile_name_1 test_file
+]]></system-out>
+  </testcase>
+  <testcase name="testMaxFiles" classname="DirectoryTest" time="0.005"/>
+  <testcase name="testFreeingInodes" classname="DirectoryTest" time="0.002"/>
+  <testcase name="testDumpRandomFilenamesAndLengths" classname="DirectoryTest" time="0.006">
+    <system-out><![CDATA[Dump of up to 32 Random Filenames and Lengths:
+FilenameLengthPair{filename='/', length=1}
+FilenameLengthPair{filename='viikseafxjjkuofsuabqfmwolh', length=26}
+FilenameLengthPair{filename='cby', length=3}
+FilenameLengthPair{filename='onvyjblphutisiuzo', length=17}
+FilenameLengthPair{filename='todffgvkwlbzpuzvcqtkakiiewo', length=27}
+FilenameLengthPair{filename='bmwlukgrzd', length=10}
+FilenameLengthPair{filename='iiyacmbsxvr', length=11}
+FilenameLengthPair{filename='amaoryjz', length=8}
+FilenameLengthPair{filename='eyommvifbdxjhlpvktvwubwdkt', length=26}
+FilenameLengthPair{filename='sjwatpxpjrwlnchzojprxmj', length=23}
+FilenameLengthPair{filename='zrxutptqvtblmdcjobafkc', length=22}
+FilenameLengthPair{filename='zk', length=2}
+FilenameLengthPair{filename='pxyfrgnunug', length=11}
+FilenameLengthPair{filename='eeylhbs', length=7}
+FilenameLengthPair{filename='dagufhzgbvpxpdnkobhxrvriqdpjc', length=29}
+FilenameLengthPair{filename='opit', length=4}
+FilenameLengthPair{filename='ckkjyndhgyopgrqfqrtkmiwdosjb', length=28}
+FilenameLengthPair{filename='wddhn', length=5}
+FilenameLengthPair{filename='cowidcamgonvxbtdnvt', length=19}
+FilenameLengthPair{filename='yulh', length=4}
+FilenameLengthPair{filename='wgmehtotbiq', length=11}
+FilenameLengthPair{filename='hjppxcjlayrnsvsczrm', length=19}
+FilenameLengthPair{filename='eqiwhcdhbjjydtz', length=15}
+FilenameLengthPair{filename='wmtqfujfqvsuwirh', length=16}
+FilenameLengthPair{filename='tvgmcxughykbkc', length=14}
+FilenameLengthPair{filename='r', length=1}
+FilenameLengthPair{filename='tjsajiboyedfytmr', length=16}
+FilenameLengthPair{filename='ncexrfcsfrzgxhrzpofxlow', length=23}
+FilenameLengthPair{filename='mrxypayofgern', length=13}
+FilenameLengthPair{filename='zhkgcllmuucbongpewpx', length=20}
+FilenameLengthPair{filename='h', length=1}
+FilenameLengthPair{filename='w', length=1}
+FilenameLengthPair{filename='tchqzb', length=6}
+]]></system-out>
+  </testcase>
+  <testcase name="testIfreeEdgeCases" classname="DirectoryTest" time="0.002"/>
+  <testcase name="testDirectoryCapacityAndReuse" classname="DirectoryTest" time="0.002"/>
+  <testcase name="testDirectoryToBytesAndBytesToDirectory" classname="DirectoryTest" time="0.003"/>
+  <testcase name="testMaxCharacters" classname="DirectoryTest" time="0.002"/>
+</testsuite>

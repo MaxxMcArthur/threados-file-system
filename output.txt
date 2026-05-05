@@ -1,0 +1,158 @@
+UnitTests:
+
+Directory -
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 s - in DirectoryTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.705 s
+[INFO] Finished at: 2026-03-21T06:18:35Z
+[INFO] ------------------------------------------------------------------------
+
+FileSystem -
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 s - in FileSystemTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.840 s
+[INFO] Finished at: 2026-03-21T06:12:36Z
+[INFO] ------------------------------------------------------------------------
+
+FileTable -
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in FileTableTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.581 s
+[INFO] Finished at: 2026-03-21T06:19:00Z
+[INFO] ------------------------------------------------------------------------
+
+Inode -
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.168 s - in InodeTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.463 s
+[INFO] Finished at: 2026-03-21T06:19:49Z
+[INFO] ------------------------------------------------------------------------
+
+SuperBlock -
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 s - in SuperBlockTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.385 s
+[INFO] Finished at: 2026-03-21T06:20:36Z
+[INFO] ------------------------------------------------------------------------
+
+P5:
+
+test_framework.sh -
+maxxm@cloudshell:~/Program5/P5$ ./test_framework.sh
+==========================================
+ThreadOS P5 Framework Test
+==========================================
+Cleaning previous compilation...
+Compiling source files...
+✅ Compilation successful!
+
+Framework is ready for student use.
+
+Students can now:
+1. Replace individual core files (FileSystem.java, FileTable.java, etc.)
+2. Compile with: javac --release 17 -cp lib/P5.jar src/*.java
+3. Run tests with: java -cp lib/P5.jar:src Boot
+
+All files in src/ take precedence over P5.jar versions.
+==========================================
+Test completed successfully!
+==========================================
+maxxm@cloudshell:~/Program5/P5$ 
+
+run.sh "l Test5" -
+maxxm@cloudshell:~/Program5/P5$ ./run.sh
+==========================================
+ThreadOS P5 - Starting ThreadOS
+==========================================
+Starting ThreadOS with:
+  - P5.jar: All core system components and filesystem implementations
+  - src/: Boot, Loader, Test5, Test6, HelloWorld
+
+threadOS ver 2.2:
+BOOT 0: Starting Operating System
+BOOT 1: Scheduler Started
+BOOT 2: DISK file created
+BOOT 2: Disk Subsystem Initialized and Started
+BOOT 3: Cache Memory Simulation Instantiated
+BOOT 4: Synchronized Queues Instantiated
+BOOT 5: File System Instantiated
+Type ? for help
+threadOS: a new thread (thread=Thread[Thread-3,2,main] tid=0 pid=-1)
+-->l Test5
+l Test5
+threadOS: a new thread (thread=Thread[Thread-5,2,main] tid=1 pid=0)
+1: format( 48 )...................successfully completed
+Correct behavior of format...............................2
+2: fd = open( "css430", "w+" )....successfully completed
+Correct behavior of open.................................2
+3: size = write( fd, buf[16] )....successfully completed
+Correct behavior of writing a few bytes..................2
+4: close( fd )....................successfully completed
+Correct behavior of close................................1
+5: reopen and read from "css430"..successfully completed
+Correct behavior of reading a few bytes..................1
+6: append buf[32] to "css430".....successfully completed
+Correct behavior of appending a few bytes................1
+7: seek and read from "css430"....successfully completed
+Correct behavior of seeking in a small file..............1
+8: open "css430" with w+..........successfully completed
+Correct behavior of read/writing a small file............1
+9: fd = open( "bothell", "w" )....successfully completed
+10: size = write( fd, buf[6656] ).successfully completed
+Correct behavior of writing a lot of bytes...............2
+11: close( fd )....................successfully completed
+12: reopen and read from "bothell"successfully completed
+Correct behavior of reading a lot of bytes...............2
+13: append buf[32] to "bothell"...successfully completed
+Correct behavior of appending to a large file............1
+14: seek and read from "bothell"...successfully completed
+Correct behavior of seeking in a large file..............2
+15: open "bothell" with w+.........successfully completed
+Correct behavior of read/writing a large file............2
+16: delete("css430")..............successfully completed
+Correct behavior of delete...............................1
+17: create uwb0-29 of 512*13......successfully completed
+Correct behavior of creating over 40 files ..............2
+18: uwb0 read b/w Test5 & Test6...
+threadOS: a new thread (thread=Thread[Thread-7,2,main] tid=2 pid=1)
+Test6.java: fd = 3successfully completed
+Correct behavior of parent/child reading the file...0.5
+19: uwb1 written by Test6.java...Test6.java terminated
+Correct behavior of two fds to the same file.............2
+Test completed
+-->
